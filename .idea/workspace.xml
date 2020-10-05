@@ -19,8 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="reinit">
+    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="remove second schedule">
+      <change afterPath="$PROJECT_DIR$/src/styles/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.8b9d765f327c45871d5f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles.cab6a620b002cc85a222.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="rc" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,21 +54,50 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../work/projects/elements/releaseMgt-ng" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="wsl://UBUNTU@/home/mious/.nvm/versions/node/v10.22.1/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="wsl://UBUNTU@/home/mious/.nvm/versions/node/v10.22.1/bin/node" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="E:\personal_projects\schedule\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\personal_projects\schedule\src\app" />
+      <recent name="E:\personal_projects\schedule\src\app\_shared" />
+      <recent name="E:\personal_projects\schedule\src\app\_main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\personal_projects\schedule\schedule\dist\schedule" />
       <recent name="E:\personal_projects\schedule\schedule\docs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="deploy:docs" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy:docs" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy:docs" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +109,8 @@
       <updated>1601920949825</updated>
       <workItem from="1601920950931" duration="2994000" />
       <workItem from="1601924366339" duration="639000" />
+      <workItem from="1601925049924" duration="2009000" />
+      <workItem from="1601936133857" duration="3762000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1601923223595</created>
@@ -92,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601924420952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove second schedule">
+      <created>1601925239999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601925239999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,16 +162,49 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="second init" />
     <MESSAGE value="reinit" />
-    <option name="LAST_COMMIT_MESSAGE" value="reinit" />
+    <MESSAGE value="remove second schedule" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove second schedule" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1601924359519">
+    <state x="551" y="204" key="FileChooserDialogImpl" timestamp="1601937400447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601924359519" />
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1601924943342">
+    <state x="551" y="204" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601937400447" />
+    <state width="1513" height="210" key="GridCell.Tab.0.bottom" timestamp="1601940239400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601924943342" />
+    <state width="1513" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601940239400" />
+    <state width="1513" height="210" key="GridCell.Tab.0.center" timestamp="1601940239399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1513" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601940239399" />
+    <state width="1513" height="210" key="GridCell.Tab.0.left" timestamp="1601940239399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1513" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601940239399" />
+    <state width="1513" height="210" key="GridCell.Tab.0.right" timestamp="1601940239400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1513" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601940239400" />
+    <state x="276" y="56" key="SettingsEditor" timestamp="1601936240946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="276" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601936240946" />
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1601925241952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601925241952" />
+    <state x="406" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601940248356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1601940248356" />
+    <state x="610" y="269" width="348" height="298" key="org.angular.cli.generate" timestamp="1601937964711">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="610" y="269" width="348" height="298" key="org.angular.cli.generate/0.0.1536.824@0.0.1536.824" timestamp="1601937964711" />
+    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601925084403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1601925084403" />
   </component>
 </project>
