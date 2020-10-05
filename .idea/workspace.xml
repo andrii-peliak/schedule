@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/src/app/app.component.html" afterDir="false" />
-    </list>
+    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="second init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/schedule/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\personal_projects\schedule\schedule\dist\schedule" />
       <recent name="E:\personal_projects\schedule\schedule\docs" />
     </key>
   </component>
@@ -63,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601920949825</updated>
-      <workItem from="1601920950931" duration="2637000" />
+      <workItem from="1601920950931" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1601923223595</created>
@@ -72,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601923223595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second init">
+      <created>1601924096803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601924096803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,12 +96,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="second init" />
+    <option name="LAST_COMMIT_MESSAGE" value="second init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1601923790477">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1601924359519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601923790477" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601924359519" />
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1601924101565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601924101565" />
   </component>
 </project>
