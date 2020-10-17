@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "postinstall": "ngcc",
     "deploy:docs": "ng build --prod --output-path docs --base-href https://github.com/andrii-peliak/schedule && cp ./docs/index.html ./docs/404.html",
-    "deploy:gh": "ng build --prod --output-path docs --base-href https://andrii-peliak.github.io/schedule && cat ./docs/index.html >> ./docs/404.html"
+    "deploy:gh": "ng build --prod --base-href https://andrii-peliak.github.io/schedule && cat ./docs/index.html >> ./docs/404.html"
   },
   "private": true,
   "dependencies": {
