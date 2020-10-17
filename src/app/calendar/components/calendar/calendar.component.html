@@ -1,0 +1,28 @@
+<mat-drawer-container class="calendar" autosize>
+  <mat-drawer #drawer class="calendar__sidenav calendar__sidenav-left" [mode]="(smallScreenMatcher | async) ? 'over' : 'side'">
+    <perfect-scrollbar>
+      <app-left-sidenav></app-left-sidenav>
+      <app-right-sidenav *ngIf="smallScreenMatcher | async"></app-right-sidenav>
+    </perfect-scrollbar>
+  </mat-drawer>
+
+  <mat-drawer class="calendar__sidenav" mode="side" opened position="end" *ngIf="!(smallScreenMatcher | async)">
+    <app-right-sidenav></app-right-sidenav>
+  </mat-drawer>
+
+  <div class="calendar__sidenav__opener">
+    <button mat-icon-button color="accent" aria-label="menu" (click)="drawer.toggle()">
+      <mat-icon *ngIf="drawer.opened">menu_open</mat-icon>
+      <mat-icon *ngIf="!drawer.opened">menu</mat-icon>
+    </button>
+  </div>
+
+  <div class="calendar__sidenav-content">
+    <perfect-scrollbar [config]="scrollConfig">
+      <div class="calendar__sidenav-content__grid">
+        <app-calendar-item class="calendar__sidenav-content__item" *ngFor="let num of [1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6]"></app-calendar-item>
+      </div>
+    </perfect-scrollbar>
+  </div>
+
+</mat-drawer-container>

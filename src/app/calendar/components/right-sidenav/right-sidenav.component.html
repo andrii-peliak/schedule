@@ -1,0 +1,9 @@
+<div class="right-sidenav">
+  <perfect-scrollbar>
+    <mat-selection-list #days multiple>
+      <mat-list-option *ngFor="let day of dayOptions" [value]="day.value">
+        {{day.title}}
+      </mat-list-option>
+    </mat-selection-list>
+  </perfect-scrollbar>
+</div>

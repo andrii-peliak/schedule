@@ -1,0 +1,76 @@
+<div class="mat-h2">Filters</div>
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Preselected time
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-selection-list multiple>
+      <mat-list-option *ngFor="let partOfDay of partsOfDay" [value]="partOfDay.value">
+        {{partOfDay.title}}
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Choose time
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-form-field>
+      <mat-label>from</mat-label>
+      <input matInput
+             [ngxTimepicker]="fromTime"
+             readonly>
+      <ngx-material-timepicker #fromTime
+                               [minutesGap]="5"
+                               [theme]="darkTheme"
+                               [appendToInput]="true">
+      </ngx-material-timepicker>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>to</mat-label>
+      <input matInput
+             [ngxTimepicker]="toTime"
+             [min]="fromTime.time"
+             readonly>
+      <ngx-material-timepicker #toTime
+                               [minutesGap]="5"
+                               [theme]="darkTheme"
+                               [appendToInput]="true">
+      </ngx-material-timepicker>
+    </mat-form-field>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Choose topics
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-form-field>
+      <mat-chip-list #chipList aria-label="Fruit selection">
+        <mat-chip *ngFor="let chip of chips"
+                  selectable
+                  removable
+                  (removed)="removeChip(chip)">
+          {{chip}}
+          <mat-icon matChipRemove>cancel</mat-icon>
+        </mat-chip>
+        <input
+          placeholder="New chips..."
+          #chipInput
+          [formControl]="chipCtrl"
+          [matAutocomplete]="auto"
+          [matChipInputFor]="chipList"
+          [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+          (matChipInputTokenEnd)="addChip($event)">
+      </mat-chip-list>
+      <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selectChip($event)">
+        <mat-option *ngFor="let chip of filteredChips | async" [value]="chip">
+          {{chip}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </mat-expansion-panel>
+</mat-accordion>

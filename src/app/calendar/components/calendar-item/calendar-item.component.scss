@@ -1,0 +1,17 @@
+
+.calendar-item {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__content {
+    flex: 1;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
