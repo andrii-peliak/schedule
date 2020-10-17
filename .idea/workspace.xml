@@ -22,36 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="calendar tab">
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/calendar-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/calendar.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar-item/calendar-item.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar-item/calendar-item.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar-item/calendar-item.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar/calendar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar/calendar.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/calendar/calendar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/left-sidenav/left-sidenav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/left-sidenav/left-sidenav.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/left-sidenav/left-sidenav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/right-sidenav/right-sidenav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/right-sidenav/right-sidenav.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/components/right-sidenav/right-sidenav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/helpers/left-sidenav.helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/models/left-sidenav.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/calendar/models/right-sidenav.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_main/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_main/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_main/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_main/main/main.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_main/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_main/main/main.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/shared.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/material.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="calendar tab deploy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +109,7 @@
       <workItem from="1602781785156" duration="4338000" />
       <workItem from="1602840271424" duration="6755000" />
       <workItem from="1602923942158" duration="7968000" />
-      <workItem from="1602957875818" duration="4289000" />
+      <workItem from="1602957875818" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1601923223595</created>
@@ -189,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602762158084</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="calendar tab">
+      <created>1602962874178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602962874178</updated>
+    </task>
+    <task id="LOCAL-00009" summary="calendar tab deploy">
+      <created>1602963091215</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602963091215</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +201,8 @@
     <MESSAGE value="toolbar init" />
     <MESSAGE value="material" />
     <MESSAGE value="calendar tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="calendar tab" />
+    <MESSAGE value="calendar tab deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="calendar tab deploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="532" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602859056590">
@@ -251,10 +237,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="276" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601936240946" />
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1602762167299">
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1602963093032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602762167299" />
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602963093032" />
     <state x="406" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602924755349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
