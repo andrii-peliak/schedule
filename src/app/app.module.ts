@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MainModule} from "./_main/main.module";
 import {CalendarModule} from "./calendar/calendar.module";
+import {AngularFireModule} from "@angular/fire";
+import {environment} from "../environments/environment";
+import {AngularFirestoreModule} from "@angular/fire/firestore";
+import {AngularFireAuthModule} from "@angular/fire/auth";
 
 @NgModule({
   declarations: [
@@ -16,7 +20,10 @@ import {CalendarModule} from "./calendar/calendar.module";
     AppRoutingModule,
     BrowserAnimationsModule,
     MainModule,
-    CalendarModule
+    CalendarModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

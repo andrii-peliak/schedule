@@ -22,9 +22,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="attempt 4">
+    <list default="true" id="42f9ffac-9059-4fb0-8bd0-321d3ea640fa" name="Default Changelist" comment="attempt 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/main.8da8e9425d78f4073787.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/polyfills.35a5ca1855eb057f016a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/runtime.acf0dec4155e77772545.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule/styles.4cfe01a1fcc0d0e49711.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.8da8e9425d78f4073787.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/polyfills.35a5ca1855eb057f016a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/runtime.acf0dec4155e77772545.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles.4cfe01a1fcc0d0e49711.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +85,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="wsl://UBUNTU@/home/mious/.nvm/versions/node/v10.22.1/bin/node" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="E:\personal_projects\schedule\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\ws\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -113,7 +133,10 @@
       <workItem from="1602781785156" duration="4338000" />
       <workItem from="1602840271424" duration="6755000" />
       <workItem from="1602923942158" duration="7968000" />
-      <workItem from="1602957875818" duration="9022000" />
+      <workItem from="1602957875818" duration="11966000" />
+      <workItem from="1603049638151" duration="2738000" />
+      <workItem from="1603093046772" duration="22000" />
+      <workItem from="1604270165920" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1601923223595</created>
@@ -227,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602969460297</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="attempt 5">
+      <created>1602970135882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602970135882</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +290,8 @@
     <MESSAGE value="attempt 2" />
     <MESSAGE value="attempt 3" />
     <MESSAGE value="attempt 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt 4" />
+    <MESSAGE value="attempt 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="attempt 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="532" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602859056590">
@@ -299,10 +330,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="276" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601936240946" />
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1602969462040">
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2" timestamp="1602970137844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602969462040" />
+    <state x="360" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602970137844" />
     <state x="406" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602924755349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -315,9 +346,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602965896231" />
-    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602767361389">
+    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603051514092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1602767361389" />
+    <state x="490" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1603051514092" />
   </component>
 </project>
